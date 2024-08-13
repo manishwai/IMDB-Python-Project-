@@ -1,6 +1,16 @@
 # IMDB-Python-Project-
 Objective 
-Objective of this project is to explore the  IMPDB movies dataset and find the insights  
+Objective of this project is to explore the  IMPDB movies dataset and find the insights Regading 
+Best and Worst Movie by certain paramters sich as reveneue , profit , budget , ROI , No of votes , popularity ,rating  (we can do that seperately and by creating the function as well )
+Are Francise More Sucessfull ?
+Most Sucessfull Directors by multiple parametres and drill down the finidng generes as well .
+Scuessfull Actors Analysis 
+Analysing Movie Genres 
+
+We have poster links as well so we can handle that by 
+from IPython.display import HTML
+subset = df[[Columns list ]].head()
+HTML(subset.to_html(escape=False))
 
 Data Overview 
 id: The ID of the movie (clear/unique identifier).
